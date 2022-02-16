@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(245, 180, 160);
 }
 
@@ -15,14 +15,12 @@ body{
   right: 22px;
   z-index: 10;
   cursor: pointer;
-
 }
 .right-arrow2 {
   position: absolute;
   top: 450px;
   right: 22px;
   cursor: pointer;
-
 }
 
 .left-arrow {
@@ -45,22 +43,22 @@ body{
   height: 120px;
   justify-content: space-between;
 }
-.colorButton{
+.colorButton {
   height: 30px;
   width: 30px;
   cursor: pointer;
 }
-.text{
+.text {
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
-.dots{
+.dots {
   display: flex;
-    position: absolute;
-    margin-top: 45px;
-    left: 50%;
-    transform: translate(-50%, 0);
+  position: absolute;
+  margin-top: 45px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .dot {
   width: 50px;
@@ -69,15 +67,14 @@ body{
   border: 1px solid #f1f1f1;
   margin: 0 15px;
   cursor: pointer;
-
 }
-.dot:nth-child(1){
+.dot:nth-child(1) {
   background: rgb(0, 0, 0);
 }
-.dot:nth-child(2){
+.dot:nth-child(2) {
   background: rgb(59, 54, 54);
 }
-.dot:nth-child(3){
+.dot:nth-child(3) {
   background: rgb(255, 255, 255);
 }
 
@@ -90,12 +87,12 @@ body{
   cursor: pointer;
   transform: scale(1.2);
 }
-.dotActive:nth-child(1){
+.dotActive:nth-child(1) {
   background: rgb(0, 0, 0);
 }
-.dotActive:nth-child(2){
+.dotActive:nth-child(2) {
   background: rgb(59, 54, 54);
 }
-.dotActive:nth-child(3){
+.dotActive:nth-child(3) {
   background: rgb(255, 255, 255);
 }
