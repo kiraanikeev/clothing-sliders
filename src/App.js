@@ -1,10 +1,7 @@
 import './App.css';
-import Slider from './components/Slider/Slider';
+import Slider from './components/Sloder/Slider';
 
 function App() {
-
-
-
   return (
     <div className="App">
     <Slider/>
